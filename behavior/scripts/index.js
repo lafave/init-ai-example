@@ -32,7 +32,7 @@ exports.handle = function handle(client) {
   const handleGoodbye = client.createStep({
     satisfied() {
       return false
-    }
+    },
 
     prompt() {
       client.addTextResponse('See you later!')

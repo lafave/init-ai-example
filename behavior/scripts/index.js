@@ -41,7 +41,7 @@ exports.handle = function handle(client) {
   })
 
   const handleGreeting = client.createStep({
-    satisified() {
+    satisfied() {
       return false
     },
 
